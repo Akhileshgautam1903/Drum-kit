@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #004643;
+}
+
+h1{
+    font-family: 'Titan One', cursive;
+    color: #fffffe;
+    text-align: center;
+    margin: 40px;
+    font-size: 4rem;
+}
+
+p{
+    font-family: 'Lilita One', cursive;
+    color: #f9bc60;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+}
+
+footer{
+    font-family: 'Lilita One', cursive;
+    color: #fffffe;
+    text-align: center;
+    margin: 3% 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fffffe;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.drums{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto 0;
+    text-align: center;
+}
+
+.row-1{
+    width: 60%;
+}
+
+.row-2{
+    margin-top: 40px;
+    width: 48%;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.tip{
+    margin: 10px 0 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    img{
+        height: 50px;
+        width: 50px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .drums{
+        flex-wrap: wrap;
+    }
+
+    .row-1 .row-2{
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .tip{
+        display: none;
+    }
+}
