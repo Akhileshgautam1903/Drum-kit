@@ -44,10 +44,16 @@ a:hover{
     text-decoration: underline;
 }
 
+.desc{
+    font-size: 1rem;
+    text-align: center;
+    color: #abd1c6;
+}
+
 .drums{
     display: flex;
     justify-content: space-around;
-    margin: 80px auto 0;
+    margin: 40px auto 0;
     text-align: center;
 }
 
